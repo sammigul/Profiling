@@ -1,0 +1,117 @@
+.main-containerl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.section-containerl {
+   background-color: white;
+   border-radius: 0.5rem;
+   padding: 2rem; 
+   width: 18rem;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.headingl {
+    text-align: center;
+    color: rgb(75 85 99);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+
+}
+
+.error-containerl {
+    text-align: center;
+}
+
+.error-textl {
+    color: red;
+    font-size: 16px;
+    align-self: flex-start;
+    padding-bottom: 4%;
+}
+
+.input-containerl {
+    margin-bottom: 1rem;
+}
+
+.labell {
+    display: block;
+    color: rgb(75 85 99);
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.sec-textl {
+    color: rgb(75 85 99);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-top: 0.5rem;
+    text-align: right;
+}
+
+.inputl {
+    width : 100%;
+    padding: 0.5rem;
+    border-width: 1px;
+    border-radius: 0.5rem;
+    border-color: rgb(209 213 219);
+}
+
+.inputl:focus {
+    border-color: rgb(66, 150, 245);
+    outline: 3px solid transparent;
+    outline-offset: 2px;
+}
+
+.inputl:hover {
+    border-color: rgb(153, 158, 165) ;
+}
+
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 15px;
+    width: 100%;
+
+}
+.btnl {
+    width: 50%;
+    background-color: white;
+    border-color: rgb(59 130 246);
+    border-width: 1px;
+    color: rgb(59 130 246);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    
+    
+}
+.btnl:hover {
+    background-color: rgb(59 130 246);
+    color: white;
+}
+
+.sec-textl {
+    margin-top: 1rem;
+}
+
+.sec-textl > .link {
+    color: rgb(59 130 246);
+}
+
+.link:hover{
+    color: rgb(25, 84, 245);
+}
+
+
+@media (min-width: 640px) {
+    .section-containerl{
+        width: 24rem;
+    }
+}
